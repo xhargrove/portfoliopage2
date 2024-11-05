@@ -15,10 +15,17 @@ body {
     padding-right: 25px;
 }
 
+h1 {
+    color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+}
+
 .navdiv {
 
     display: flex;
-    width: 100%%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
@@ -39,102 +46,44 @@ li a {
     
 /* BODY LAYOUT - front page*/
 
-
 .content {
+    color: white;
     display: flex;
     flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: left; /* Aligns all text within each element to the left */
+    max-width: 700px;
+    padding: 30px 100px;
+
 }
 
-.content h2 {
-    color: white;
-    font-size: 2em;
-    margin: 0; /* Removes default margins for consistent alignment */
-    padding: 0; /* Removes padding to align with p */
+.photo img {
+    max-width: 700px;
+    float: right;
 }
+/* ABOUT ME PAGE STARTS */
 
-.content h3 {
-    font-size: 1.2em;
-    color: #ddd;
-    margin: 0 0 20px 0; /* Removes default margins except bottom margin for spacing */
-    padding: 0; /* Ensures alignment with p */
-}
+/* text one */
 
-.content p {
-    color: white;
-    margin: 0;
-    padding: 10px 0 40px; /* Adds spacing below the paragraph */
-}
-
-.home {
-    position: relative;
-    color: white;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center; 
-    background-image: url(images/profile-photo.png);
-    background-size: 55%;
-    background-repeat: no-repeat;
-    background-position: right bottom;
- 
-}
-
-/* about me page starts here */
-
-section {
-    display: flex;
-    justify-content: flex-end; /* Aligns the content to the right */
-}
-.content {
-    width: 50%; /* Ensures it takes full width */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; /* Centers the content vertically */
-    padding-right: 20px; /* Adds some spacing on the right */
-}
-
-.image-container {
-    max-width: 200px; /* Sets the maximum width of the image container */
-    border: 1px solid #ccc; /* Optional: Adds a border around the container */
-    padding: 10px; /* Adds padding inside the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
-    text-align: center; /* Centers the image within the container */
-    align-items: center;
-}
-
-.image-container img {
-    width: 100%; /* Makes the image responsive */
-    height: auto;
-    margin-top: 70px;
-}
-
-/* Pargraghsn- text one */
 #air-force-veteran {
     display: flex;
-    justify-content: flex-end; /* Aligns content to the far right */
-    padding: 20px 10px; /* Top/bottom padding with 10px right padding */
-    background-color: #333; /* Dark background for contrast */
+    justify-content: flex-end; 
+    padding: 20px 10px; 
+    background-color: black; 
     padding-right: 100px;
     padding-left: 100px;
 }
 
 .content-container {
     display: flex;
-    justify-content: space-between; /* Ensures text is on the left, image on the right */
+    justify-content: space-between; 
     align-items: flex-start;
 }
 
 .text-content {
-    color: white; /* Sets text color to white */
-    max-width: 70%; /* Allows text to take up 70% of the width */
-    line-height: 1.6; /* Improves readability */
-    font-family: Arial, sans-serif; /* Optional: Sets a clean font */
-    margin-right: 20px; /* Adds space between text and image */
+    color: white; 
+    max-width: 70%; 
+    line-height: 1.6;
+    font-family: Arial, sans-serif; 
+    margin-right: 20px; 
 }
 
 .text-content h2 {
@@ -149,41 +98,41 @@ section {
 .text-content hr {
     margin-top: 20px;
     border: 0;
-    border-top: 1px solid #ccc; /* Light gray line for contrast */
+    border-top: 1px solid #ccc; 
 }
 
 .image-container {
-    max-width: 200px; /* Limits the image container width */
+    max-width: 200px; 
 }
 
 .image-container img {
-    width: 100%; /* Makes the image responsive within its container */
+    width: 100%; 
     height: auto;
-    padding: 0px; /* Adds padding inside the border */
+    padding: 0px; 
 }
 
 /* text 2 */
+
 #air-force-veteran2 {
     display: flex;
-    justify-content: flex-end; /* Aligns content to the far right */
-    padding: 20px 10px; /* Top/bottom padding with 10px right padding */
-    background-color: #333; /* Dark background for contrast */
+    justify-content: flex-end; 
+    padding: 20px 10px; 
+    background-color: black; 
     padding-right: 100px;
     padding-left: 100px;
 }
 
 .content-container2 {
     display: flex;
-    justify-content: space-between; /* Ensures text is on the left, image on the right */
-    align-items: flex-start;
+    justify-content: space-between; 
 }
 
 .text-content2 {
-    color: white; /* Sets text color to white */
-    max-width: 70%; /* Allows text to take up 70% of the width */
-    line-height: 1.6; /* Improves readability */
-    font-family: Arial, sans-serif; /* Optional: Sets a clean font */
-    margin-right: 20px; /* Adds space between text and image */
+    color: white; 
+    max-width: 70%; 
+    line-height: 1.6; 
+    font-family: Arial, sans-serif; 
+    margin-right: 20px; 
 }
 
 .text-content2 h2 {
@@ -198,43 +147,43 @@ section {
 .text-content2 hr {
     margin-top: 20px;
     border: 100%;
-    border-top: 1px solid #ccc; /* Light gray line for contrast */
+    border-top: 1px solid #ccc; 
 }
 
 .image-container2 {
-    max-width: 200px; /* Limits the image container width */
+    max-width: 200px; 
 }
 
 .image-container2 img {
-    width: 100%; /* Makes the image responsive within its container */
-    height: auto;
-    border: 1px solid #ccc; /* Optional: Adds a border around the image */
-    padding: 5px; /* Adds padding inside the border */
-    background-color: #f9f9f9; /* Optional: Background color for the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+    width: 100%; 
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 /* text 3 */
-#air-force-veteran3 {
+
+ #air-force-veteran3 {
     display: flex;
-    justify-content: flex-end; /* Aligns content to the far right */
-    padding: 20px 10px; /* Top/bottom padding with 10px right padding */
-    background-color: #333; /* Dark background for contrast */
+    justify-content: flex-end; 
+    padding: 20px 10px; 
+    background-color: #333; 
     padding-right: 100px;
     padding-left: 100px;
 }
 
 .content-container3 {
     display: flex;
-    justify-content: space-between; /* Ensures text is on the left, image on the right */
-    align-items: flex-start;
+    justify-content: space-between; 
 }
 
 .text-content3 {
-    color: white; /* Sets text color to white */
-    max-width: 70%; /* Allows text to take up 70% of the width */
-    line-height: 1.6; /* Improves readability */
-    font-family: Arial, sans-serif; /* Optional: Sets a clean font */
-    margin-right: 20px; /* Adds space between text and image */
+    color: white; 
+    max-width: 70%; 
+    line-height: 1.6; 
+    font-family: Arial, sans-serif; 
+    margin-right: 20px; 
 }
 
 .text-content3 h2 {
@@ -249,24 +198,28 @@ section {
 .text-content3 hr {
     margin-top: 20px;
     border: 100%;
-    border-top: 1px solid #ccc; /* Light gray line for contrast */
+    border-top: 1px solid #ccc; 
 }
 
 .image-container3 {
-    max-width: 200px; /* Limits the image container width */
+    max-width: 200px; 
 }
 
 .image-container3 img {
-    width: 100%; /* Makes the image responsive within its container */
-    height: auto;
-    border: 1px solid #ccc; /* Optional: Adds a border around the image */
-    padding: 5px; /* Adds padding inside the border */
-    background-color: #f9f9f9; /* Optional: Background color for the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow for depth */
+    width: 100%; 
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* contact me boxes */
 
+.contactbox {
+    display: flex;
+    justify-content: center;
+
+}
 .contactcontain {
     background-color: white;
     padding: 20px;
@@ -274,8 +227,8 @@ section {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 50%;
-    max-width: 400px; /* Max width for responsiveness */
+    width: 500px;
+    max-width: 400px; 
 }
 
 input, button {
@@ -295,4 +248,69 @@ button {
 
 button:hover {
     background-color: dodgerblue;
+}
+
+/* Portfolio Page */
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 5px solid white;
+
+}
+
+h2 {
+    color: #f9f9f9;
+    font-size: 18pt;
+}
+
+.project {
+    flex: 1;
+    margin: 0 10px; 
+    box-sizing: border-box;
+}
+
+.project-content {
+    display: flex;
+    flex-direction: column; 
+    color: black;
+    background-color: lightgrey;
+    width: 350px;
+    height: 800px;
+    padding: 10px; 
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.port-photo {
+    text-align: center;
+}
+.port-photo img {
+    max-width: 100%; 
+    height: 200px; 
+    text-align: center;
+    border: 5px solid black;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px; 
+    box-sizing: border-box;
+}
+
+.header1 {
+    color: black;
+}
+
+.header2 {
+    color: black;
+}
+
+.header3 {
+    color: black;
 }
